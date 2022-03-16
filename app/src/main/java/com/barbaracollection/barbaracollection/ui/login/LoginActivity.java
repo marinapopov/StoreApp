@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -23,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.barbaracollection.barbaracollection.R;
+import com.barbaracollection.barbaracollection.SignUpActivity;
 import com.barbaracollection.barbaracollection.ui.login.LoginViewModel;
 import com.barbaracollection.barbaracollection.ui.login.LoginViewModelFactory;
 import com.barbaracollection.barbaracollection.databinding.ActivityLoginBinding;
@@ -32,6 +34,7 @@ public class LoginActivity extends AppCompatActivity {
     private LoginViewModel loginViewModel;
     private ActivityLoginBinding binding;
     private Button loginButton;
+    private Button signUpButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,6 +50,7 @@ public class LoginActivity extends AppCompatActivity {
         final EditText passwordEditText = binding.password;
         final ProgressBar loadingProgressBar = binding.loading;
         loginButton = findViewById(R.id.login);
+        signUpButton = findViewById(R.id.signUp);
         loginViewModel.getLoginFormState().observe(this, new Observer<LoginFormState>() {
             @Override
             public void onChanged(@Nullable LoginFormState loginFormState) {
@@ -120,6 +124,13 @@ public class LoginActivity extends AppCompatActivity {
                 loadingProgressBar.setVisibility(View.VISIBLE);
                 loginViewModel.login(usernameEditText.getText().toString(),
                         passwordEditText.getText().toString());
+            }
+        });
+        signUpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), SignUpActivity.class);
+                view.getContext().startActivity(intent);
             }
         });
     }
