@@ -6,20 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="338dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/background_input"
-        android:text="Search"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="17sp"
-        app:cornerRadius="52dp"
+    <!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="338dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:background="@drawable/background_input"-->
+<!--        android:text="Search"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="17sp"-->
+<!--        app:cornerRadius="52dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <SearchView
+        android:id="@+id/simpleSearchView"
+        android:layout_width="390dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -213,6 +225,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/user" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

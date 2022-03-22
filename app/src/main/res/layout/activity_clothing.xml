@@ -49,15 +49,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/linevertical" />
 
-    <ImageView
-        android:id="@+id/imageView26"
-        android:layout_width="36dp"
-        android:layout_height="25dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="40dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
+
 
     <TextView
         android:id="@+id/textView16"
@@ -144,9 +136,9 @@
         android:layout_height="23dp"
         android:layout_gravity="center"
         android:layout_marginTop="360dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="44dp"
         android:adjustViewBounds="true"
-        android:background="whi"
+        android:background="@color/white"
         android:maxWidth="60dp"
         android:maxHeight="60dp"
         android:scaleType="fitCenter"
@@ -187,7 +179,7 @@
         android:layout_marginTop="360dp"
         android:layout_marginEnd="216dp"
         android:adjustViewBounds="true"
-        android:background="whi"
+        android:background="@color/white"
         android:maxWidth="60dp"
         android:maxHeight="60dp"
         android:scaleType="fitCenter"
@@ -258,9 +250,9 @@
         android:layout_height="23dp"
         android:layout_gravity="center"
         android:layout_marginTop="644dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginEnd="44dp"
         android:adjustViewBounds="true"
-        android:background="whi"
+        android:background="@color/white"
         android:maxWidth="60dp"
         android:maxHeight="60dp"
         android:scaleType="fitCenter"
@@ -285,10 +277,10 @@
         android:layout_width="21dp"
         android:layout_height="23dp"
         android:layout_gravity="center"
-        android:layout_marginTop="644dp"
-        android:layout_marginEnd="224dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="228dp"
         android:adjustViewBounds="true"
-        android:background="whi"
+        android:background="@color/white"
         android:maxWidth="60dp"
         android:maxHeight="60dp"
         android:scaleType="fitCenter"
@@ -307,6 +299,22 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="372dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
