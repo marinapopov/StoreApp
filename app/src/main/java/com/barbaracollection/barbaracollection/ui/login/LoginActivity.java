@@ -23,6 +23,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.barbaracollection.barbaracollection.HomeActivity;
 import com.barbaracollection.barbaracollection.R;
 import com.barbaracollection.barbaracollection.SignUpActivity;
 import com.barbaracollection.barbaracollection.ui.login.LoginViewModel;
@@ -121,9 +122,8 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadingProgressBar.setVisibility(View.VISIBLE);
-                loginViewModel.login(usernameEditText.getText().toString(),
-                        passwordEditText.getText().toString());
+                Intent intent = new Intent(LoginActivity.this, HomeActivity.class);
+                startActivity(intent);
             }
         });
         signUpButton.setOnClickListener(new View.OnClickListener() {
@@ -133,6 +133,7 @@ public class LoginActivity extends AppCompatActivity {
                 view.getContext().startActivity(intent);
             }
         });
+
     }
 
     private void updateUiWithUser(LoggedInUserView model) {

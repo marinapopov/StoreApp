@@ -8,79 +8,38 @@
     tools:context=".SavedItems">
 
     <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="136dp"
-        android:layout_height="30dp"
-        android:layout_marginTop="36dp"
+        android:id="@+id/imageView19"
+        android:layout_width="129dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="92dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintHorizontal_bias="0.028"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/saveditems" />
+        app:srcCompat="@drawable/dressflowers" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="217dp"
         android:layout_height="23dp"
         android:layout_marginStart="141dp"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="316dp"
         android:text="Kally flat over the knee boots "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="129dp"
-        android:layout_height="165dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="444dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cap" />
-
-    <ImageButton
-        android:id="@+id/image_cross2"
-        android:layout_width="21dp"
-        android:layout_height="23dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="404dp"
-        android:layout_marginEnd="16dp"
-        android:adjustViewBounds="true"
-        android:background="@color/white"
-        android:maxWidth="60dp"
-        android:maxHeight="60dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/cross"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="155dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="204dp"
-        android:text="MOVE TO BAG"
-        android:textColor="#000000"
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="536dp"
+        android:text="WHITE"
         android:textStyle="bold"
-        app:backgroundTint="#CBCCA6C4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.568"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="155dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="384dp"
-        android:text="MOVE TO BAG"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:backgroundTint="#CBCCA6C4"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -88,45 +47,8 @@
         android:layout_width="217dp"
         android:layout_height="23dp"
         android:layout_marginStart="141dp"
-        android:layout_marginTop="492dp"
+        android:layout_marginTop="500dp"
         android:text="Puma logo cap"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="36dp"
-        android:layout_height="21dp"
-        android:layout_marginTop="348dp"
-        android:text="36"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/linetop" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="223dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="120dp"
-        android:text="Printed voile cut out mini dress  with button front and collar detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView19"
@@ -137,7 +59,7 @@
         android:layout_width="21dp"
         android:layout_height="23dp"
         android:layout_gravity="center"
-        android:layout_marginTop="584dp"
+        android:layout_marginTop="592dp"
         android:layout_marginEnd="16dp"
         android:adjustViewBounds="true"
         android:background="@color/white"
@@ -148,93 +70,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/image_cross1"
-        android:layout_width="21dp"
-        android:layout_height="23dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="224dp"
-        android:layout_marginEnd="16dp"
-        android:adjustViewBounds="true"
-        android:background="@color/white"
-        android:maxWidth="60dp"
-        android:maxHeight="60dp"
-        android:scaleType="fitCenter"
-        android:src="@drawable/cross"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="141dp"
-        android:layout_marginTop="444dp"
-        android:text="$ 7.25"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="75dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="528dp"
-        android:text="ONE SIZE"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="155dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="560dp"
-        android:text="MOVE TO BAG"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        app:backgroundTint="#CBCCA6C4"
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="129dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="272dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boots" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="348dp"
-        android:text="BLACK"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
-        app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="528dp"
-        android:text="WHITE"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.051"
-        app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="129dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="452dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cap" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="36dp"
         android:layout_height="21dp"
-        android:layout_marginTop="172dp"
+        android:layout_marginTop="180dp"
         android:text="XS"
         android:textAlignment="center"
         android:textColor="#000000"
@@ -249,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="141dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="92dp"
         android:text="$ 25.50"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -259,34 +119,25 @@
         app:layout_constraintStart_toStartOf="@+id/imageView19"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
-        android:text="FLORAL"
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="392dp"
+        android:text="MOVE TO BAG"
+        android:textColor="#000000"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="129dp"
-        android:layout_height="165dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="264dp"
+        app:backgroundTint="#CBCCA6C4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/boots" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="141dp"
-        android:layout_marginTop="264dp"
+        android:layout_marginTop="272dp"
         android:text="$ 34.00"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -296,27 +147,184 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="129dp"
-        android:layout_height="165dp"
-        android:layout_marginTop="84dp"
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="FLORAL"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/image_cross1"
+        android:layout_width="21dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cross"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="155dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="212dp"
+        android:text="MOVE TO BAG"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:backgroundTint="#CBCCA6C4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/image_cross2"
+        android:layout_width="21dp"
+        android:layout_height="23dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="412dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cross"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="36dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="356dp"
+        android:text="36"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="452dp"
+        android:text="$ 7.25"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="356dp"
+        android:text="BLACK"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toEndOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="568dp"
+        android:text="MOVE TO BAG"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:backgroundTint="#CBCCA6C4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="223dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="128dp"
+        android:text="Printed voile cut out mini dress  with button front and collar detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="75dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="536dp"
+        android:text="ONE SIZE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="@+id/imageView19"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dressflowers" />
+        app:srcCompat="@drawable/linetop" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView17"-->
+<!--        android:layout_width="136dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_marginTop="36dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:srcCompat="@drawable/saveditems" />-->
+
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="45dp"
         android:layout_height="41dp"
-        android:layout_marginStart="16dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="12dp"
         android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true"
         android:background="@color/white"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/homebtn"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/searchlogoo" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -351,6 +359,36 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/user" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="372dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="136dp"
+        android:fontFamily="sans-serif"
+        android:text="SAVED ITEMS"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
