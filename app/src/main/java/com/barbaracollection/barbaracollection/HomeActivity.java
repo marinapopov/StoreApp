@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
     ImageButton favoriteBtn;
     ImageButton accBtn;
     Button shoesBtn;
+    Button accessBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         favoriteBtn = findViewById(R.id.imageButton9);
         accBtn = findViewById(R.id.imageButton10);
         shoesBtn = findViewById(R.id.button3);
+        accessBtn = findViewById(R.id.button6);
 
         clothingBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,6 +68,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, ShoesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        accessBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, AccessoriesActivity.class);
                 startActivity(intent);
             }
         });
