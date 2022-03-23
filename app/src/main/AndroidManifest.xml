@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BarbaraCollection.NoActionBar">
         <activity
+            android:name=".FaceBodyActivity"
+            android:exported="false" />
+        <activity
             android:name=".AccessoriesActivity"
             android:exported="false" />
         <activity

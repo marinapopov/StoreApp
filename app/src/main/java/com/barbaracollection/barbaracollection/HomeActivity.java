@@ -19,6 +19,7 @@ public class HomeActivity extends AppCompatActivity {
     ImageButton accBtn;
     Button shoesBtn;
     Button accessBtn;
+    Button bodyBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,7 @@ public class HomeActivity extends AppCompatActivity {
         accBtn = findViewById(R.id.imageButton10);
         shoesBtn = findViewById(R.id.button3);
         accessBtn = findViewById(R.id.button6);
+        bodyBtn = findViewById(R.id.button7);
 
         clothingBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +78,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this, AccessoriesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        bodyBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, FaceBodyActivity.class);
                 startActivity(intent);
             }
         });
