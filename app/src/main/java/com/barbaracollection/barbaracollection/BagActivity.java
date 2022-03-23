@@ -15,6 +15,7 @@ public class BagActivity extends AppCompatActivity {
     ImageButton favoriteBtn;
     ImageButton homeBtn;
     Button checkoutBtn;
+    ImageButton accBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class BagActivity extends AppCompatActivity {
         favoriteBtn = findViewById(R.id.imageButton19);
         homeBtn = findViewById(R.id.imageButton17);
         checkoutBtn = findViewById(R.id.button10);
+        accBtn = findViewById(R.id.imageButton20);
 
         returnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +55,14 @@ public class BagActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(BagActivity.this, OrderDone.class);
+                startActivity(intent);
+            }
+        });
+
+        accBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BagActivity.this, AccountActivity.class);
                 startActivity(intent);
             }
         });

@@ -12,6 +12,7 @@ public class SavedItems extends AppCompatActivity {
     ImageButton returnBtn;
     ImageButton bagBtn;
     ImageButton homeBtn;
+    ImageButton accBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class SavedItems extends AppCompatActivity {
         returnBtn = findViewById(R.id.imageButton21);
         bagBtn = findViewById(R.id.imageButton3);
         homeBtn = findViewById(R.id.imageButton2);
+        accBtn = findViewById(R.id.imageButton6);
 
         returnBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,14 @@ public class SavedItems extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(SavedItems.this, HomeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        accBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SavedItems.this, AccountActivity.class);
                 startActivity(intent);
             }
         });
