@@ -6,23 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <!--    <TextView-->
-<!--        android:id="@+id/textView3"-->
-<!--        android:layout_width="338dp"-->
-<!--        android:layout_height="32dp"-->
-<!--        android:layout_marginStart="8dp"-->
-<!--        android:layout_marginTop="25dp"-->
-<!--        android:layout_marginEnd="8dp"-->
-<!--        android:background="@drawable/background_input"-->
-<!--        android:text="Search"-->
-<!--        android:textAlignment="center"-->
-<!--        android:textColor="#000000"-->
-<!--        android:textSize="17sp"-->
-<!--        app:cornerRadius="52dp"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
     <SearchView
         android:id="@+id/simpleSearchView"
         android:layout_width="390dp"
@@ -186,7 +169,7 @@
         android:layout_height="41dp"
         android:layout_gravity="center"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="12dp"
         android:adjustViewBounds="true"
         android:background="@color/white"
         android:maxWidth="60dp"
@@ -200,12 +183,12 @@
         android:id="@+id/imageButton8"
         android:layout_width="45dp"
         android:layout_height="41dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="12dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/shoppingbag" />
 
     <ImageButton
@@ -215,9 +198,9 @@
         android:layout_marginBottom="12dp"
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton10"
-        app:layout_constraintHorizontal_bias="0.754"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/favorite" />
 
     <ImageButton
@@ -230,8 +213,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/user" />
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
