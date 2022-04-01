@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BarbaraCollection.NoActionBar">
         <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignOutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".FaceBodyActivity"
             android:exported="false" />
         <activity

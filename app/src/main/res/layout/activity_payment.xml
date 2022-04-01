@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFDEDE"
+    tools:context=".PaymentActivity">
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="363dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="10dp"
+        android:text="   Visa"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#F4F4F4"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="252dp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/visa" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="25dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="368dp"
+        android:adjustViewBounds="true"
+        android:background="#DFDEDE"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView81"
+        android:layout_width="196dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paymentmethods" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="10dp"
+        android:text="   MasterCard"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#F4F4F4"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="10dp"
+        android:text="   PayPal"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#F4F4F4"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView83"
+        android:layout_width="52dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="184dp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paypal" />
+
+    <ImageView
+        android:id="@+id/imageView82"
+        android:layout_width="52dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="112dp"
+        android:translationZ="90dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mastercard" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="295dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="72dp"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="#D8D7D7"
+        android:textSize="18sp"
+        app:backgroundTint="#4B5DC1"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView85"
+        android:layout_width="175dp"
+        android:layout_height="197dp"
+        android:layout_marginBottom="176dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pay" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="41dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="16dp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="41dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="16dp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="41dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="16dp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

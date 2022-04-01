@@ -237,10 +237,10 @@
 
         <ImageButton
             android:id="@+id/imageButton18"
-            android:layout_width="45dp"
-            android:layout_height="41dp"
+            android:layout_width="48dp"
+            android:layout_height="44dp"
             android:layout_gravity="center"
-            android:layout_marginBottom="12dp"
+            android:layout_marginBottom="8dp"
             android:adjustViewBounds="true"
             android:background="@color/white"
             android:maxWidth="60dp"
@@ -249,7 +249,7 @@
             android:src="@drawable/shoppingbagcolor"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.336"
+            app:layout_constraintHorizontal_bias="0.33"
             app:layout_constraintStart_toStartOf="parent" />
 
         <ImageButton

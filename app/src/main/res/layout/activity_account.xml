@@ -6,6 +6,45 @@
     android:layout_height="match_parent"
     tools:context=".AccountActivity">
 
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="320dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="344dp"
+        android:text="My orders"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49"
+        app:srcCompat="@drawable/linetop" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="35dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="360dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/myorders" />
+
     <ImageButton
         android:id="@+id/imageButton24"
         android:layout_width="45dp"
@@ -15,7 +54,8 @@
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/favorite" />
+        app:srcCompat="@drawable/favorite"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton23"
@@ -26,7 +66,8 @@
         android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/shoppingbag" />
+        app:srcCompat="@drawable/shoppingbag"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton22"
@@ -42,7 +83,8 @@
         android:scaleType="fitCenter"
         android:src="@drawable/homebtn"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView39"
@@ -57,16 +99,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="25dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/settings" />
 
     <ImageView
         android:id="@+id/imageView38"
@@ -121,14 +153,13 @@
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="428dp"
+        android:layout_marginBottom="412dp"
         android:text="Marina Popov"
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
@@ -142,32 +173,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView51"
-        app:srcCompat="@drawable/linetop" />
-
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="35dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView43"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView38"
-        app:srcCompat="@drawable/myorders" />
-
-    <ImageView
-        android:id="@+id/imageView47"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="7dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView49"
         app:srcCompat="@drawable/linetop" />
 
     <ImageView
@@ -188,91 +193,29 @@
         android:layout_width="35dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView45"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView50"
         app:srcCompat="@drawable/payment" />
-
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="173dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="512dp"
-        android:fontFamily="sans-serif"
-        android:text="Payment methods"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.268"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView57"
         android:layout_width="35dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView55"
         app:srcCompat="@drawable/signout" />
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="92dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="344dp"
-        android:fontFamily="sans-serif"
-        android:text="My orders"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="185dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="596dp"
-        android:fontFamily="sans-serif"
-        android:text="Sign out"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.074"
-        app:layout_constraintStart_toEndOf="@+id/imageView57"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="92dp"
-        android:layout_height="26dp"
-        android:layout_marginTop="428dp"
-        android:fontFamily="sans-serif"
-        android:text="My details"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView48"
         android:layout_width="35dp"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="13dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView44"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView47"
         app:srcCompat="@drawable/details" />
 
     <ImageView
@@ -284,5 +227,67 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/useraccount" />
+
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:adjustViewBounds="true"
+        android:background="@color/white"
+        android:maxWidth="60dp"
+        android:maxHeight="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="320dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="48dp"
+        android:text="Sign Out"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton24"
+        app:layout_constraintStart_toEndOf="@+id/imageView57" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="320dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="180dp"
+        android:text="Payment methods"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="320dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="264dp"
+        android:text="My details"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:backgroundTint="#FFFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
